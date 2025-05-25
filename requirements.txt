@@ -1,0 +1,2 @@
+flash_attn==2.7.3
+transformers==4.46.3
