@@ -17,7 +17,7 @@ Experimental results demonstrate that **DIET** significantly reduces token count
 2.  **Install `verl` library and dependencies:**
     The `verl` directory contains core code for our reinforcement learning framework.
     ```bash
-    git clone ...
+    git clone git@github.com:thunlp/DIET.git
     cd diet
 
     cd verl
