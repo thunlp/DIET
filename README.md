@@ -1,6 +1,6 @@
 # The Overthinker's DIET: Cutting Token Calories with DIfficulty-AwarE Training
 
-This repository contains the official implementation for the paper: "The Overthinker's DIET: Cutting Token Calories with DIfficulty-AwarE Training".
+This repository contains the official implementation for the paper: "[The Overthinker's DIET: Cutting Token Calories with DIfficulty-AwarE Training](https://arxiv.org/pdf/2505.19217)".
 
 ## Abstract
 Recent large language models (LLMs) exhibit impressive reasoning but often _overthink_, generating excessively long responses that hinder efficiency. We introduce **<ins>DI</ins>fficulty-Awar<ins>E</ins> <ins>T</ins>raining (DIET)**, a framework that systematically cuts these "token calories" by integrating on-the-fly problem difficulty into the reinforcement learning (RL) process. **DIET** dynamically adapts token compression strategies by modulating token penalty strength and conditioning target lengths on estimated task difficulty, to optimize the performance-efficiency trade-off. We also theoretically analyze the pitfalls of naive reward weighting in group-normalized RL algorithms like GRPO, and propose _Advantage Weighting_ technique, which enables stable and effective implementation of these difficulty-aware objectives.
